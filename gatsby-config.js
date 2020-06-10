@@ -1,7 +1,7 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: '/my_project',
+  pathPrefix: '/bukiy.github.io',
   siteMetadata: {
     title: config.siteTitle,
     siteUrl: config.siteUrl,
