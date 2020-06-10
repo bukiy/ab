@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://bekry.github.io/sitemap.xml
+Host: https://bekry.github.io
