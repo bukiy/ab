@@ -5,7 +5,7 @@
   "author": "Abubeker Mohammed <abukie969@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bukiy/ab"
+    "url": "https://github.com/bukiy/bukiy.github.io"
   },
   "keywords": [
     "gatsby"
@@ -17,7 +17,8 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "husky": {
     "hooks": {

@@ -1,6 +1,7 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: '/my_project',
   siteMetadata: {
     title: config.siteTitle,
     siteUrl: config.siteUrl,
